@@ -1,3 +1,6 @@
+[core]
+    sshCommand = ssh -i ~/.ssh/git
+
 [commit]
     verbose = true
 
