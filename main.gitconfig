@@ -11,9 +11,12 @@
     autoSetupRemote = true
 
 [alias]
-    again = commit --amend --reset-author --no-edit
-    empty = commit --allow-empty
-    trash = reset HEAD~1 --hard
+    # commit
+    empty  = commit --allow-empty
+    reword = commit --amend
+    oops   = commit --amend --reset-author --no-edit
+    # uncommit
+    uncommit = reset --soft HEAD~1
 
 [include]
     path = ~/.gitconfig.d/local.gitconfig
