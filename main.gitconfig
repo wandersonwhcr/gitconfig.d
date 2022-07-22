@@ -12,6 +12,7 @@
 
 [alias]
     again = commit --amend --reset-author --no-edit
+    trash = reset HEAD~1 --hard
 
 [include]
     path = ~/.gitconfig.d/local.gitconfig
