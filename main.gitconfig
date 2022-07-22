@@ -1,4 +1,5 @@
 [core]
+    pager = cat
     sshCommand = ssh -i ~/.ssh/git
 
 [commit]
@@ -9,6 +10,14 @@
 
 [push]
     autoSetupRemote = true
+
+[tag]
+    sort = version:refname
+
+[versionsort]
+    prereleaseSuffix = -alpha
+    prereleaseSuffix = -beta
+    prereleaseSuffix = -rc
 
 [alias]
     # commit
