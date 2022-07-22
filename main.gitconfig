@@ -12,6 +12,7 @@
 
 [alias]
     again = commit --amend --reset-author --no-edit
+    empty = commit --allow-empty
     trash = reset HEAD~1 --hard
 
 [include]
