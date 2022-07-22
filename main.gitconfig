@@ -10,5 +10,8 @@
 [push]
     autoSetupRemote = true
 
+[alias]
+    again = commit --amend --reset-author --no-edit
+
 [include]
     path = ~/.gitconfig.d/local.gitconfig
