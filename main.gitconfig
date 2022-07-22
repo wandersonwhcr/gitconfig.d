@@ -1,2 +1,5 @@
 [pull]
     rebase = false
+
+[include]
+    path = ~/.gitconfig.d/local.gitconfig
