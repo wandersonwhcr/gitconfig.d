@@ -19,6 +19,9 @@
     prereleaseSuffix = -beta
     prereleaseSuffix = -rc
 
+[grep]
+    lineNumber = true
+
 [alias]
     # commit
     empty  = commit --allow-empty
