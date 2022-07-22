@@ -17,3 +17,4 @@ EOF
 
 * [git-config: Configuration File](https://git-scm.com/docs/git-config#_configuration_file)
 * [git-config: Includes](https://git-scm.com/docs/git-config#_includes)
+* [Nice, useful global Git configuration](https://gist.github.com/tdd/470582)
