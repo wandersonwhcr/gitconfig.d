@@ -42,4 +42,4 @@
     trim = fetch --prune --prune-tags
 
 [include]
-    path = ~/.gitconfig.d/local.gitconfig
+    path = ~/.gitconfig.d/main.local.gitconfig
