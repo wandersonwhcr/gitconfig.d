@@ -11,6 +11,13 @@ cat <<'EOF' >> ~/.gitconfig
 [include]
     path = ~/.gitconfig.d/main.gitconfig
 EOF
+
+cat <<'EOF' >> ~/.gitconfig/local.gitconfig
+[user]
+    name       = John Doe
+    email      = john@doe.tld
+    signingkey = 0123456789ABCDEF0123456789ABCDEF01234567
+EOF
 ```
 
 ## References
