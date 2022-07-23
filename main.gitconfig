@@ -2,6 +2,9 @@
     pager = cat
     sshCommand = ssh -i ~/.ssh/git
 
+[init]
+    defaultBranch = main
+
 [diff]
     colorMoved = default
 
