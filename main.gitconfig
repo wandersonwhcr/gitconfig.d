@@ -32,6 +32,8 @@
     oops   = commit --amend --reset-author --no-edit
     # uncommit
     uncommit = reset --soft HEAD~1
+    # cleanup
+    trim = fetch --prune --prune-tags
 
 [include]
     path = ~/.gitconfig.d/local.gitconfig
