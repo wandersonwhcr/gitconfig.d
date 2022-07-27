@@ -34,7 +34,8 @@
     reword = commit --amend
     oops   = commit --amend --reset-author --no-edit
     # uncommit
-    uncommit = reset --soft HEAD~1
+    uncommit   = reset --soft HEAD~1
+    decapitate = reset --hard HEAD~1
     # log
     log-full = log --show-signature --pretty=fuller --patch
     # cleanup
