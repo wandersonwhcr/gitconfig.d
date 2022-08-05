@@ -33,6 +33,7 @@
     empty  = commit --allow-empty
     reword = commit --amend
     oops   = commit --amend --reset-author --no-edit
+    shadow = rebase --no-signoff --exec 'git oops'
     # uncommit
     uncommit   = reset --soft HEAD~1
     decapitate = reset --hard HEAD~1
