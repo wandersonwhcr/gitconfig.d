@@ -40,6 +40,7 @@
     # log
     log-full = log --show-signature --pretty=fuller --patch
     # cleanup
+    wipe = clean -d -x --force
     trim = \
         !git remote update --prune \
         && git branch --list --merged \
