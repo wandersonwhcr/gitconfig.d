@@ -38,6 +38,7 @@
     uncommit   = reset --soft HEAD~1
     decapitate = reset --hard HEAD~1
     # log
+    short    = rev-parse --short HEAD
     log-full = log --show-signature --pretty=fuller --patch
     # cleanup
     wipe = clean -d -x --force
