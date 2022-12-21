@@ -29,8 +29,11 @@
     lineNumber = true
 
 [alias]
+    # info
+    root = rev-parse --show-toplevel
     # commit
     empty  = commit --allow-empty
+    bump   = commit --allow-empty --message 'Bump'
     reword = commit --amend
     oops   = commit --amend --reset-author --no-edit
     shadow = rebase --no-signoff --exec 'git oops'
@@ -40,6 +43,7 @@
     # log
     short    = rev-parse --short HEAD
     log-full = log --show-signature --pretty=fuller --patch
+    log-last = log-full HEAD ^HEAD~1
     # cleanup
     wipe = clean -d -x --force
     trim = \
