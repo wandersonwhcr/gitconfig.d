@@ -12,7 +12,7 @@ cat <<'EOF' >> ~/.gitconfig
     path = ~/.gitconfig.d/main.gitconfig
 EOF
 
-cat <<'EOF' >> ~/.gitconfig/main.local.gitconfig
+cat <<'EOF' >> ~/.gitconfig.d/main.local.gitconfig
 [user]
     name       = John Doe
     email      = john@doe.tld
