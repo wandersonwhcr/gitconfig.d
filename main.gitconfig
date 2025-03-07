@@ -33,7 +33,7 @@
     root = rev-parse --show-toplevel
     # commit
     empty  = commit --allow-empty
-    bump   = commit --allow-empty --message 'Bump'
+    touch  = commit --allow-empty --message 'Touch'
     reword = commit --amend
     oops   = commit --amend --reset-author --no-edit
     shadow = rebase --no-signoff --exec 'git oops'
