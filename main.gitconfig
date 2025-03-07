@@ -42,6 +42,7 @@
     decapitate = reset --hard HEAD~1
     # log
     short    = rev-parse --short HEAD
+    current  = rev-parse --abbrev-ref HEAD
     log-full = log --show-signature --pretty=fuller --patch
     log-last = log-full HEAD ^HEAD~1
     # cleanup
